@@ -3,27 +3,8 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 760px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 980px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1180px;
-  }
-}
-
-
-
-
- 
 
 /*NAV*/
 .cor_nav{
@@ -34,12 +15,12 @@
 
 /*SOBRE MIM*/
 .sobre {
-  background-color: lightgrey;
+  background-color: rgb(238, 238, 238);
   width: 100%;
-  border: 5px solid #696969;
+  border: 5px solid #b1aeae;
   padding: 50px;
   margin-top: 50px;
-   position:responsive;
+  position: relative;
 }
 .sobre p{
 	font-size: 20px;
@@ -47,14 +28,12 @@
 
 
 
-}
-
-
 /*HOBBIES*/
 #hobby {
   padding-top: 0;
   padding-left: all;
   text-align: center;
+
 }
 
 .hobb {
@@ -85,7 +64,7 @@
 .hob-info h4 {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #999;
+  color: rgb(158, 156, 156);
 }
 /*TRABALHOS*/
 
@@ -97,189 +76,66 @@
 
 
 /*COMPETENCIAS SOCIOMOCIONAIS*/
-.roxo {
-    width: 100%;
-    background-color: #d3dbff;
+#hobby2 {
+  padding-top: 0;
+
+  
 }
 
-#socio {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding: 20px;
-    margin: 0 ;
-    color: #0b273f;
+.hobb2 {
+  margin-bottom: 25px;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  
 }
 
-#socio div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    position: relative;
-    margin-top: 30px;
-}
-
-#socio p {
-    line-height: 1.5;
-    margin: 2vh;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-#socio h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 2em;
-    text-align: center;
-}
-
-#socio h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-#socio h4 {
-    margin-bottom: 20px;
-    margin-top: 10px;
-    font-size: 1.2em;
-    text-align: center; 
-}
-
-#projetos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding: 20px;
-    margin: 0 auto;
-    color: #0b273f;
-}
-
-#projetos div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    position: relative;
-    margin-top: 30px;
-}
-
-#projetos p {
-    line-height: 1.5;
-    margin: 2vh;
-    font-size: 1.2em;
-    text-align: justify;
-}
-
-#projetos h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 2em;
-    text-align: center;
-}
-
-#projetos h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-#projetos h4 {
-    margin-bottom: 20px;
-    margin-top: 10px;
-    font-size: 1.2em;
-    text-align: center; 
-}
-
-iframe {
-    border-radius: 7%;   
-}
-
-.soc img {
-    align-items: center;       
-}
-
-.emo img {
-    border: 3px groove #0b273f;
-    border-radius: 50%;
-    margin: 10px 0; 
-    width: 50%;   
-}
-
-.proj img {
-    align-items: center;   
-    border: 3px groove #0b273f;
-    border-radius: 7%;
-    margin: 10px auto;
-    width: 80%;
-}
-.proj img:hover {
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    transform: rotate(10deg);
-}
-
-#socio a {
-    text-decoration: none;
-    margin: 10px auto;
-    align-items: center;
-}
-
-#hobby {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding: 20px;
-    margin: 0 auto;
-    color: #0b273f;
-}
-
-.hobby {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    position: relative;
-    margin-top: 30px;
-}
-
-.hobby h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.hobby p {
-    line-height: 1.5;
-    margin: 2vh;
-    font-size: 1.2em;
-    text-align: justify;
+.hobb2 h2 {
+	margin-top: 30px;
+ 
 }
 
 
+#hobby2 .img-responsive {
+  width: 100%;
+  text-align: center;
+  
+}
 
+.hob-info2 {
+	margin-top: 10px;
+	font-size: 18px;
+  
+  }
+.hob-info2 h3 {
+  margin-top: 35px;
+
+}
+
+.hob-info2 h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(104, 104, 104);
+}
+  
 /*CONTATO*/
+#footer{
+	background-image: url("img/ffooter.png");
+}
 .footer .footer-top {
 	padding: 40px 0 70px;
-	background-color: #fff !important;
-	background-image: url("img/ffooter.jpg");
-	background-repeat: repeat !important;
-	background-attachment: scroll !important;
-	background-clip: border-box !important;
-	background-origin: padding-box !important;
-	background-position: 0% 0% !important;
-	background-size: auto auto !important;
+	background-color: #fff;
+	
+	background-repeat: repeat ;
+	background-attachment: scroll ;
+	background-clip: border-box ;
+	background-origin: padding-box ;
+	background-position: 0% 0% ;
+	background-size: auto auto ;
 }
 .footer .footer-top .single-widget{
 	margin-top:30px;
@@ -405,4 +261,20 @@ iframe {
 	margin:0px 5px;
 }
 
-/**/
+/*medias*/
+@media (min-width: 768px) {
+	.container {
+	  width: 760px;
+	}
+  }
+  @media (min-width: 992px) {
+	.container {
+	  width: 980px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.container {
+	  width: 1480px;
+	}
+  }
+  
