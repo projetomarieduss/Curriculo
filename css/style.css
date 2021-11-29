@@ -8,7 +8,7 @@
 
 /*NAV*/
 .cor_nav{
-	background-color:#696969;
+	background-color:#DCDCDC;
 }
 
 
@@ -221,16 +221,19 @@
 @media (min-width: 768px) {
 	.container {
 	  width: 760px;
+	  font-family: Comic Sans MS, Comic Sans, cursive;
 	}
   }
   @media (min-width: 992px) {
 	.container {
 	  width: 980px;
+	  font-family: Comic Sans MS, Comic Sans, cursive;
 	}
   }
   @media (min-width: 1200px) {
 	.container {
 	  width: 1480px;
+	  font-family: Comic Sans MS, Comic Sans, cursive;
 	}
   }
   
